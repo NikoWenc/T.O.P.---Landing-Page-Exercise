@@ -10,6 +10,7 @@
     flex-direction: column;
     background-color: #1f2937;
     font-family: Roboto;
+    padding-top: 1rem;
 }
 
 .nav-bar{
@@ -81,6 +82,7 @@
     padding: 5px 15px;
     border: none;
     border-radius: 5px;
+    margin-top: 8px;
 }
 
 /* end of top-content style */
@@ -90,7 +92,6 @@
 .content-section{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -101,6 +102,7 @@
     align-items: center;
     margin: 3rem;
     gap: 2rem;
+    width: 100%;
 }
 
 .second-content{
@@ -127,4 +129,27 @@
     text-align: center;
 }
 /* first middle content */
+
+/* 2nd middle content */
+.third-content-container{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 300px;
+    background-color: #e5e7eb;
+    width: 100%;
+}
+
+.third-content{
+    align-self: center;
+}
+
+.third-content blockquote{
+    font-size: 36px;
+    font-family: "light italic";
+    color: #1f2937;
+}
+
+.third-content-container p{
+    align-self: flex-end;
+}
 
