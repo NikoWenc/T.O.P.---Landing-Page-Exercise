@@ -21,7 +21,6 @@
 .header-logo-container {
     display: flex;
     flex: auto;
-    border: 1px solid red;
     justify-content: center;
     align-items: center;
 }
@@ -35,7 +34,6 @@
 .links-container{
     display: flex;
     flex: auto;
-    border: 1px solid red;
     justify-content: center;
     align-items: center;
     gap: 1rem;
@@ -45,10 +43,88 @@
     text-decoration: none;
 }
 
-.header-links{
+.header-links, .hero-para{
     font-size: 18px;
-    color: #E5E7EB;
+    color: #e5e7eb93;
 }
 /* end of nav-bar styles */
 
 /* start of top-content style */
+.first-content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.first-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.first-content .hero{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.img-container, .first-content{
+    width: 500px;
+    height: 250px;
+}
+
+.sign-up-button{
+    background-color: #3382f6;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* end of top-content style */
+
+/* start of middle content */
+/* first middle content */
+.content-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+    gap: 2rem;
+}
+
+.second-content{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.illustration-container{
+    display: flex;
+    gap: 50px;
+}
+
+.illu-box{
+    border: 3px solid #3382f6;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.illu-para{
+    width: 150px;
+    text-align: center;
+}
+/* first middle content */
+
